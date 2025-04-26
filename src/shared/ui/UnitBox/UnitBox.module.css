@@ -1,0 +1,9 @@
+.box {
+  width: 150px;
+  border-radius: 8px;
+  padding: 8px;
+  border: 1px solid var(--neutral-400);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+}

@@ -1,0 +1,17 @@
+.head {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.topPage {
+  margin-bottom: 32px;
+}
+
+.back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+}

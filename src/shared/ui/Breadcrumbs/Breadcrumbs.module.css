@@ -1,0 +1,14 @@
+.breadcrumbs {
+  padding: 10px 0 20px 0;
+  color: var(--neutral-800);
+}
+
+.piece {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+}
+
+.active {
+  color: var(--neutral-900);
+}

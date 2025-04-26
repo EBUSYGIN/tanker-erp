@@ -1,0 +1,1 @@
+export interface CalendarProps extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement> {}

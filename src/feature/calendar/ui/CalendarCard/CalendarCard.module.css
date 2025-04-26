@@ -1,0 +1,45 @@
+.calendarCard {
+  width: 353px;
+  padding: 7px 23px 35px;
+  border-radius: 8px;
+  background-color: var(--white);
+}
+
+.title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--neutral-900);
+  text-align: center;
+}
+
+.weekdays {
+  margin-bottom: 6px;
+  color: var(--neutral-800);
+}
+
+.weekdays,
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 40px);
+  gap: 6px;
+}
+
+.weekday,
+.day {
+  justify-self: center;
+}
+
+.day {
+  transition: border-color 0.3s, color 0.3s;
+}
+
+.day:hover {
+  border-color: var(--blue-600);
+  color: var(--blue-600);
+}
+
+.today {
+  border-color: var(--blue-600);
+  color: var(--blue-600);
+}

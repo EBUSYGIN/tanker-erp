@@ -1,0 +1,19 @@
+.white {
+  color: var(--white);
+}
+
+.black {
+  color: var(--black);
+}
+
+.l {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 167%;
+}
+
+.xl {
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 157%;
+}
