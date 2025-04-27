@@ -32,8 +32,8 @@ export const routes: IRoute[] = [
         icon: "Works",
       },
       {
-        path: "/employees",
-        name: "Сотрудники",
+        path: "/materials",
+        name: "Материалы",
         icon: "Badge",
       },
     ],

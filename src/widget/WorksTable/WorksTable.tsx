@@ -11,6 +11,7 @@ export const WorksTable = ({ className, ...props }: WorksTableProps) => {
       <Table {...props}>
         <TableHead>
           <TableRow>
+            <TableCell>#</TableCell>
             <TableCell className={styles.name}>
               Наименование объекта ремонта. Содержание ремонтных работ. Наименование и краткая
               техническая характеристика применяемых для выполнения работ запасных частей, расходных
@@ -22,6 +23,7 @@ export const WorksTable = ({ className, ...props }: WorksTableProps) => {
         </TableHead>
         <TableBody>
           <TableRow>
+            <TableCell>1</TableCell>
             <TableCell>
               Установить/снять емкость для мусора ( не менее 8 м3) с последующей утилизацией.
             </TableCell>
@@ -29,6 +31,7 @@ export const WorksTable = ({ className, ...props }: WorksTableProps) => {
             <TableCell>1</TableCell>
           </TableRow>
           <TableRow>
+            <TableCell>2</TableCell>
             <TableCell>Подключить/отключить электропитание 440 V, 60 Гц.</TableCell>
             <TableCell>шт.</TableCell>
             <TableCell>1</TableCell>
