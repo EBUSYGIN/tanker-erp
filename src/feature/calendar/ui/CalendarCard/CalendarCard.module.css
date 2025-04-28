@@ -2,20 +2,19 @@
   width: 353px;
   padding: 7px 23px 35px;
   border-radius: 8px;
-  background-color: var(--white);
+  background-color: var(--gray-dark);
+  color: var(--gray-light);
 }
 
 .title {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 24px;
-  color: var(--neutral-900);
   text-align: center;
 }
 
 .weekdays {
   margin-bottom: 6px;
-  color: var(--neutral-800);
 }
 
 .weekdays,
@@ -35,11 +34,11 @@
 }
 
 .day:hover {
-  border-color: var(--blue-600);
-  color: var(--blue-600);
+  border-color: var(--primary);
+  color: var(--primary);
 }
 
 .today {
-  border-color: var(--blue-600);
-  color: var(--blue-600);
+  border-color: var(--primary);
+  color: var(--primary);
 }

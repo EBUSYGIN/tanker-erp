@@ -39,7 +39,7 @@ export const Sidebar = () => {
   return (
     <nav className={styles.nav}>
       <Title tag="h2" color="white" size="l">
-        Теплогаз
+        Танкеры
       </Title>
       {routes.map((route, index) => (
         <Disclosure key={route.path || index}>

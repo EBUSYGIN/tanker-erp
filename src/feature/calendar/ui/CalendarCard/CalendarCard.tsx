@@ -40,6 +40,7 @@ export const CalendarCard = ({ className, monthName, month, year, ...props }: Ca
           return day.getMonth() === month ? (
             <Button
               size="boxed"
+              appearance="dark"
               key={index}
               typeOf="link"
               path={`/calendar/${format(day, "yyyy-MM-dd")}`}
