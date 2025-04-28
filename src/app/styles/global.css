@@ -3,4 +3,6 @@ body {
   margin: 0;
   font-family: Noto Sans, sans-serif;
   box-sizing: border-box;
+  background-color: var(--black);
+  color: var(--gray-light);
 }

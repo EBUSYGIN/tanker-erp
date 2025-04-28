@@ -1,9 +1,17 @@
 import cn from 'classnames';
 
-import { Table, TableBody, TableCell, TableHead, TableInputCell, TableRow, TableWrapper } from '../../shared/ui';
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableInputCell,
+  TableRow,
+  TableWrapper,
+} from '../../shared/ui';
 
-import { MaterialsTableProps } from './MaterialsTable.props';
 import styles from './MaterialsTable.module.css';
+import { MaterialsTableProps } from './MaterialsTable.props';
 
 export const MaterialsTable = ({ className, ...props }: MaterialsTableProps) => {
   return (
@@ -22,17 +30,13 @@ export const MaterialsTable = ({ className, ...props }: MaterialsTableProps) => 
             <TableCell>1</TableCell>
             <TableCell>Материал 1</TableCell>
             <TableCell>куб.</TableCell>
-            <TableCell>
-              <TableInputCell />
-            </TableCell>
+            <TableInputCell />
           </TableRow>
           <TableRow>
             <TableCell>2</TableCell>
             <TableCell>Материал 2</TableCell>
             <TableCell>куб.</TableCell>
-            <TableCell>
-              <TableInputCell />
-            </TableCell>
+            <TableInputCell />
           </TableRow>
         </TableBody>
       </Table>

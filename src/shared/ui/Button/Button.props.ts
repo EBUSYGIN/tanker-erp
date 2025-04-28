@@ -6,7 +6,7 @@ export interface ButtonProps
     HTMLButtonElement
   > {
   size?: "s" | "m" | "boxed" | "sm";
-  appearance?: "primary" | "ghost" | "default" | "blue" | "ghost-blue";
+  appearance?: "primary" | "ghost" | "dark" | "default" | "blue" | "ghost-blue";
   icon?: IconType;
   border?: "border-black" | "border-ghost" | "none";
   typeOf?: "button" | "link" | "div";

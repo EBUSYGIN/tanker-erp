@@ -12,7 +12,7 @@
 }
 
 .active {
-  border-bottom: 3px solid var(--blue);
+  border-bottom: 3px solid var(--primary);
 }
 
 .button {

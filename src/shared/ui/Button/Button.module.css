@@ -1,5 +1,5 @@
 .button {
-  background-color: var(--white);
+  color: var(--gray-light);
   border-radius: 8px;
   display: inline-flex;
   align-items: center;
@@ -11,12 +11,16 @@
 
 .ghost {
   background-color: var(--ghost);
-  color: var(--white);
+  color: var(--gray-light);
 }
 
 .primary {
-  background-color: var(--white);
+  background-color: var(--gray-light);
   color: var(--black);
+}
+
+.dark {
+  background-color: var(--black);
 }
 
 .boxed {
@@ -49,7 +53,7 @@
 }
 
 .border-ghost {
-  border: 1px solid var(--neutral-200);
+  border: 1px solid var(--gray-dark);
 }
 
 .none {
@@ -57,12 +61,12 @@
 }
 
 .default {
-  border: 1px solid var(--neutral-400);
+  border: 1px solid var(--gray-dark);
 }
 
 .blue {
-  background-color: var(--blue);
-  color: var(--white);
+  background-color: var(--primary);
+  color: var(--gray-light);
 }
 
 .blue:hover {
@@ -72,8 +76,8 @@
 .ghost-blue {
   font-weight: 500;
   font-size: 14px;
-  border: 1px solid var(--blue);
-  color: var(--blue);
+  border: 1px solid var(--primary);
+  color: var(--primary);
   text-transform: uppercase;
 }
 

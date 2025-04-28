@@ -20,7 +20,9 @@
 .input {
   width: 100%;
   border-radius: 8px;
-  border: 1px solid var(--neutral-400);
+  border: none;
+  background-color: var(--black);
+  color: var(--white);
   padding: 8px 25px;
   font-weight: 400;
   font-size: 14px;

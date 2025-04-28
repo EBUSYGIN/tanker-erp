@@ -297,6 +297,7 @@ export const TankerMap: React.FC<TankerMapProps> = ({ imageSrc }) => {
               left: `${tooltipPosition.x - 420}px`,
               top: `${tooltipPosition.y}px`,
               transform: "translate(0, -50%)",
+              backgroundColor: "var(--gray-dark)"
             }}
           >
             <div className="tooltip-header">
